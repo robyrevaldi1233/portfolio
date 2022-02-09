@@ -1,6 +1,12 @@
 import { Children } from "react/cjs/react.production.min";
 
-export default function Button( {children} ) {
+export default function Button( {children, variant} ) 
+
+const variant = {
+  ""
+}
+
+{
     return (
         <div className="w-3/12">
         <div className="button">
